@@ -1,15 +1,15 @@
-package org.kol.microservices.currencyexchangeservice;
+package org.kol.microservices.apigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-
+@EnableDiscoveryClient
 @SpringBootApplication
-public class CurrencyExchangeServiceApplication {
+public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CurrencyExchangeServiceApplication.class, args);
+		SpringApplication.run(ApiGatewayApplication.class, args);
 	}
 
 }
