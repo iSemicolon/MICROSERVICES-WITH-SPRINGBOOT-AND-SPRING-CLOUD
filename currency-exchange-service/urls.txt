@@ -42,3 +42,11 @@ currency-exchange-service: http://localhost:8000/swagger-ui.html
 currency-conversion-service: http://localhost:8100/swagger-ui.html
 
 
+//content negotiation
+means , we want response as json or xml format.
+by default response in json format.
+
+how to test;:
+in postman add, headers section : key=accept, value=application/xml
+
+
