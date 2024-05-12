@@ -37,3 +37,8 @@ http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
 http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
 
 
+//Swagger url
+currency-exchange-service: http://localhost:8000/swagger-ui.html
+currency-conversion-service: http://localhost:8100/swagger-ui.html
+
+
